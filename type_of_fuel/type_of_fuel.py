@@ -4,8 +4,8 @@ class Type_of_fuel:
      def diesel_fuel(self):
         print("diesel fuel")
      def gas(self):
-         print("gas")
+        print("gas")
      def electricity(self):
-         print("electricity")
+        print("electricity")
      def petrol(self):
-         print("petrol")
+        print("petrol")
