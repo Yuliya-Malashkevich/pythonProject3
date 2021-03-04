@@ -1,4 +1,4 @@
 
-from Transport.water_transport import water_transport
-class cruise_ship(water_transport):
+from Transport.water_transport.water_transport import Water_transport
+class Cruise_ship(Water_transport):
     pass

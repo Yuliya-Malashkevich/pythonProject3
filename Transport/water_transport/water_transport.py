@@ -1,6 +1,6 @@
-from Transport.transport import transport
-from type_of_fuel.type_of_fuel import type_of_fuel
+from Transport.transport import Transport
+from type_of_fuel.type_of_fuel import Type_of_fuel
 
-class water_transport(type_of_fuel,transport):  # водный
+class Water_transport(Type_of_fuel,Transport):  # водный
     def move_on_water(self):
         print("Move on water")

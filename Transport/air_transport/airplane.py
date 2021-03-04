@@ -1,5 +1,5 @@
-from Transport.air_transport import air_transport
+from Transport.air_transport.air_transport import Air_transport
 
 
-class airplane(air_transport.air_transport):
+class Airplane(Air_transport):
     pass

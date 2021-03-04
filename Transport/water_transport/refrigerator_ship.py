@@ -1,5 +1,5 @@
-from Transport.water_transport import water_transport
+from Transport.water_transport.water_transport import Water_transport
 
 
-class refrigerator_ship(water_transport): #корабль
+class Refrigerator_ship(Water_transport): #корабль
     pass

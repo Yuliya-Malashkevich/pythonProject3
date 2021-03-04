@@ -1,6 +1,6 @@
 
 
-class type_of_fuel:
+class Type_of_fuel:
      def diesel_fuel(self):
         print("diesel fuel")
      def gas(self):

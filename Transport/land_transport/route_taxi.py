@@ -1,7 +1,7 @@
-from Transport.land_transport import land_transport
+from Transport.land_transport.land_transport import Land_transport
 
-class route_taxi(land_transport):
+class Route_taxi(Land_transport):
     def __init__(self, brand, country_of_origin, color, maximum_speed, year):
         super().__init__(brand, country_of_origin, color, maximum_speed, year)
-route_taxi1 = route_taxi("Е433", "Belarus", "yellow", "60km/h", 2017)
-route_taxi1.diesel_fuel()
+Route_taxi1 = Route_taxi("Е433", "Belarus", "yellow", "60km/h", 2017)
+Route_taxi1.diesel_fuel()

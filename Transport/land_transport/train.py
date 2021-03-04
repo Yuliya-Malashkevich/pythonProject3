@@ -1,4 +1,4 @@
-from Transport.land_transport import land_transport
+from Transport.land_transport.land_transport import Land_transport
 
-class train(land_transport):
+class Train(Land_transport):
     pass

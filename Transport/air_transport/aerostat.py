@@ -1,4 +1,4 @@
-from Transport.air_transport import air_transport
+from Transport.air_transport.air_transport import Air_transport
 
-class aerostat(air_transport.air_transport): #воздушный шар
+class Aerostat(Air_transport): #воздушный шар
      pass

@@ -1,4 +1,4 @@
-from Transport.land_transport import land_transport
+from Transport.land_transport.land_transport import Land_transport
 
-class autotruck(land_transport.land_transport): #грузовые
+class Autotruck(Land_transport): #грузовые
     pass

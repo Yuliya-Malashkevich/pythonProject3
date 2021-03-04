@@ -1,5 +1,5 @@
 
-class transport:
+class Transport:
 
     def __init__(self,brand,country_of_origin,color,maximum_speed,year):
         self.brand=brand

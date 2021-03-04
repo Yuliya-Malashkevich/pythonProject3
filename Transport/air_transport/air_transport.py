@@ -1,7 +1,7 @@
-from Transport.transport import transport
-from type_of_fuel.type_of_fuel import type_of_fuel
+from Transport.transport import Transport
+from type_of_fuel.type_of_fuel import Type_of_fuel
 
 
-class air_transport(type_of_fuel,transport):  # воздушный
+class Air_transport(Type_of_fuel,Transport):  # воздушный
     def move_in_the_air(self):
         print("Move in the air")
