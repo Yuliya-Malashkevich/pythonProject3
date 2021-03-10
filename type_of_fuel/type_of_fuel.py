@@ -22,7 +22,7 @@ class Type_of_fuel:
         amount = float(input('Введите объем в кубах: '))
         print('Получено кубов газа - ', amount)
 
-    def electric_fuel(self):
+    def electricity(self):
         amount = float(input('Введите объем в киловаттах: '))
         print('Получено киловатт электричества - ', amount)
 
@@ -43,7 +43,7 @@ class Type_of_fuel:
         elif act == 5:
             Type_of_fuel.gas(self)
         elif act == 6:
-            Type_of_fuel.electric_fuel(self)
+            Type_of_fuel.electricity(self)
         elif act == 7:
             Type_of_fuel.jet_fuel(self)
         else:
@@ -64,4 +64,3 @@ my_Fuel.menu()
 #      def petrol(self):
 #         print("petrol")
 #
-# class Fuel:
