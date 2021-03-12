@@ -48,19 +48,11 @@ class Type_of_fuel:
             Type_of_fuel.jet_fuel(self)
         else:
             Type_of_fuel.menu(self)
-my_Fuel = Type_of_fuel()
-my_Fuel.menu()
+# my_Fuel = Type_of_fuel()
+# my_Fuel.menu()
 
 
 
 
 
-# def diesel_fuel(self):
-#         print("diesel fuel")
-#      def gas(self):
-#         print("gas")
-#      def electricity(self):
-#         print("electricity")
-#      def petrol(self):
-#         print("petrol")
 #

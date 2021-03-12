@@ -114,7 +114,7 @@ Route_taxi1.diesel_fuel()
 
 class Autotruck(Land_transport): #грузовые
     pass
-class passenger_car(Land_transport):
+class Passenger_car(Land_transport):
     pass
 class Train(Land_transport):
     pass
